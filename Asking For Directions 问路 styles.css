@@ -1,0 +1,33 @@
+.title{
+    font-weight: bolder;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: solid;
+}
+
+.subtitle{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+}
+
+.vocab{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    transition: 0.15s;
+    transition-timing-function: linear;
+}
+
+.everything_else {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    transition: 0.15s;
+    transition-timing-function: linear;
+    color: black;
+}
+
+.everything_else:hover {
+    color: aliceblue;
+    font-weight: 500;
+    transform: scale(1.5, 1.5);
+}
