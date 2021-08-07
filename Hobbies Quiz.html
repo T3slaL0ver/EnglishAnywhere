@@ -3,17 +3,18 @@
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
-  <link href="Unit stylesheet.css" rel="stylesheet" type="text/css">
 	<meta charset="utf-8" />
-	<title>考試 - 天氣</title>
+    <link href="Unit stylesheet.css" rel="stylesheet" type="text/css">
+	<title>Quiz</title>
+    <title>考試 - 愛好</title>
 </head>
 
 <body>
 	<style>
-    body {
-      height: auto;
-      background: linear-gradient(141deg, #ddddda 0%, #e8edff 51%, #b1c8ff 100%);
-    }
+        body {
+        height: auto;
+        background: linear-gradient(141deg, #ddddda 0%, #e8edff 51%, #b1c8ff 100%);
+        }
 
 		#frame001 {
 			background-color: white;
@@ -59,11 +60,11 @@
 			color: red;
 		}
 	</style>
-    <a href="天氣 Weather.html" class="button">返回前頁 Back</a>
+        <a href="愛好 Hobbies.html" class="button">返回前頁 Back</a>
 	<div id="frame001">
 		<div id="text001">
-			      <h2>天氣</h2>
-			      題目: <text id="number001">0</text><br />
+			<h2>愛好</h2>
+			題目: <text id="number001">0</text><br />
             得分: <text id="score001">0</text>
       <hr />
       <div id="message001">點擊開始</div><br />
@@ -83,31 +84,31 @@
   </div>
     
   <script>
-       var q = ["天氣預報用英語怎麼說?</br></br>", "秋天用英語怎麼說？</br></br>", "Warm 的意義是什麼?</br></br>", "多雲用英語怎麼說？</br></br>", "Seasons 的意義是什麼?</br></br>"];
+       var q = ["“體育”用英文怎麼說？</br></br>", "“散步”用英文怎麼說？</br></br>", "“滑雪”英文的真確拼法是什麼？ </br></br>", "”Crafting”的意思是什麼？</br></br>", "“烹飪”用英文怎麼說？</br></br>"];
       
-      var a1 = ["<button class=buttons002 onclick=q1c()>Weather Report</button>",
-                "<button class=buttons002 onclick=q2i()>Spring</button>",
-                "<button class=buttons002 onclick=q3i()>冷</button>",
-                "<button class=buttons002 onclick=q4c()>Cloudy</button>",
-                "<button class=buttons002 onclick=q5c()>季節</button>"];
+      var a1 = ["<button class=buttons002 onclick=q1i()>Hike</button>",
+                "<button class=buttons002 onclick=q2c()>Walking</button>",
+                "<button class=buttons002 onclick=q3i()>Sking</button>",
+                "<button class=buttons002 onclick=q4i()>縫紉</button>",
+                "<button class=buttons002 onclick=q5i()>Coking</button>"];
 
-        var a2 = ["<button class=buttons002 onclick=q1i()>Temperature</button>",
-                  "<button class=buttons002 onclick=q2i()>Summer</button>",
-                  "<button class=buttons002 onclick=q3i()>凉快</button>",
-                  "<button class=buttons002 onclick=q4i()>Rain</button>",
-                  "<button class=buttons002 onclick=q5i()>溫度</button>"];
+        var a2 = ["<button class=buttons002 onclick=q1i()>Jog</button>",
+                  "<button class=buttons002 onclick=q2i()>Jogging</button>",
+                  "<button class=buttons002 onclick=q3c()>Skiing</button>",
+                  "<button class=buttons002 onclick=q4i()>畫畫</button>",
+                  "<button class=buttons002 onclick=q5c()>Cooking</button>"];
 
-        var a3 = ["<button class=buttons002 onclick=q1i()>Seasons</button>",
-                  "<button class=buttons002 onclick=q2c()>Autumn</button>",
-                  "<button class=buttons002 onclick=q3i()>潮濕</button>",
-                  "<button class=buttons002 onclick=q4i()>Wind</button>",
-                  "<button class=buttons002 onclick=q5i()>颱風</button>"];
+        var a3 = ["<button class=buttons002 onclick=q1i()>Walk</button>",
+                  "<button class=buttons002 onclick=q2i()>Cycling</button>",
+                  "<button class=buttons002 onclick=q3i()>Skiiing</button>",
+                  "<button class=buttons002 onclick=q4i()>寫作</button>",
+                  "<button class=buttons002 onclick=q5i()>Baking</button>"];
 
-        var a4 = ["<button class=buttons002 onclick=q1i()>Weather</button>",
-                  "<button class=buttons002 onclick=q2i()>Winter</button>",
-                  "<button class=buttons002 onclick=q3c()>溫暖</button>",
-                  "<button class=buttons002 onclick=q4i()>Thunderstorm</button>",
-                  "<button class=buttons002 onclick=q5i()>乾旱</button>"];
+        var a4 = ["<button class=buttons002 onclick=q1c()>Sports</button>",
+                  "<button class=buttons002 onclick=q2i()>Surfing</button>",
+                  "<button class=buttons002 onclick=q3i()>Skiiiing</button>",
+                  "<button class=buttons002 onclick=q4c()>做手工藝品</button>",
+                  "<button class=buttons002 onclick=q5i()>Gardening</button>"];
 
      
       var c = ["正確!", "正確!", "正確!", "正確!", "正確!"];
