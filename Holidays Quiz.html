@@ -5,11 +5,11 @@
 <head>
     <link href="Unit stylesheet.css" rel="stylesheet" type="text/css">
 	<meta charset="utf-8" />
-	<title>考試 - 問路</title>
+	<title>考試 - 節日</title>
 </head>
 
 <body>
-	<style>
+    <style>
         body {
         height: auto;
         background: linear-gradient(141deg, #ddddda 0%, #e8edff 51%, #b1c8ff 100%);
@@ -59,12 +59,12 @@
 			color: red;
 		}
 	</style>
-    <a href="問路 Asking For Directions.html" class="button">返回前頁 Back</a>
+    <a href="節日 Holidays.html" class="button">返回前頁 Back</a>
 	<div id="frame001">
 		<div id="text001">
-			<h2>問路</h2>
+			<h2>節日</h2>
 			題目: <text id="number001">0</text><br />
-            得分: <text id="score001">0</text>
+        得分: <text id="score001">0</text>
       <hr />
       <div id="message001">點擊開始</div><br />
     </div>
@@ -83,33 +83,32 @@
   </div>
     
   <script>
-       var q = ["「我怎麼去(那裡)?」用英語怎麼說?</br></br>", "右邊用英語怎麼說？</br></br>", "Straight Ahead 的意義是什麼?</br></br>", "超級市場用英語怎麼說？</br></br>", "Near 的意義是什麼?</br></br>"];
+       var q = ["”Easter”的意思是什麼？</br></br>", "“情人節”英文的真確拼法是什麼？</br></br>", "“生日”用英文怎麼說？</br></br>", " “母親節”用英文怎麼說？</br> </br>", "“新年快樂”用英文怎麼說？"];
       
-      var a1 = ["<button class=buttons002 onclick=q1c()>How do I get there？</button>",
-                "<button class=buttons002 onclick=q2i()>Left</button>",
-                "<button class=buttons002 onclick=q3i()>方向</button>",
-                "<button class=buttons002 onclick=q4c()>Supermarket</button>",
-                "<button class=buttons002 onclick=q5c()>進</button>"];
+      var a1 = ["<button class=buttons002 onclick=q1c()>復活節</button>",
+                "<button class=buttons002 onclick=q2i()>Valentin’s Day</button>",
+                "<button class=buttons002 onclick=q3i()>Vacation</button>",
+                "<button class=buttons002 onclick=q4i()>Mather’s Day</button>",
+                "<button class=buttons002 onclick=q5i()>Happy New</button>"];
 
-        var a2 = ["<button class=buttons002 onclick=q1i()>How far is ____？</button>",
-                  "<button class=buttons002 onclick=q2i()>To the left of (the) ____</button>",
-                  "<button class=buttons002 onclick=q3i()>右邊</button>",
-                  "<button class=buttons002 onclick=q4i()>Store</button>",
-                  "<button class=buttons002 onclick=q5i()>遠</button>"];
+        var a2 = ["<button class=buttons002 onclick=q1i()>萬聖節</button>",
+                  "<button class=buttons002 onclick=q2c()>Valentine’s Day</button>",
+                  "<button class=buttons002 onclick=q3i()>Wedding</button>",
+                  "<button class=buttons002 onclick=q4i()>Father’s Day </button>",
+                  "<button class=buttons002 onclick=q5i()>Happy Year</button>"];
 
-        var a3 = ["<button class=buttons002 onclick=q1i()>Where is ____?</button>",
-                  "<button class=buttons002 onclick=q2c()>Right</button>",
-                  "<button class=buttons002 onclick=q3i()>地方</button>",
-                  "<button class=buttons002 onclick=q4i()>Restaurant</button>",
-                  "<button class=buttons002 onclick=q5i()>前方</button>"];
+        var a3 = ["<button class=buttons002 onclick=q1i()>春節</button>",
+                  "<button class=buttons002 onclick=q2i()>Valetine’s Day</button>",
+                  "<button class=buttons002 onclick=q3c()>Birthday</button>",
+                  "<button class=buttons002 onclick=q4c()>Mother’s Day</button>",
+                  "<button class=buttons002 onclick=q5c()>Happy New Year</button>"];
 
-        var a4 = ["<button class=buttons002 onclick=q1i()>Where is the park?</button>",
-                  "<button class=buttons002 onclick=q2i()>To the right of (the) ____</button>",
-                  "<button class=buttons002 onclick=q3c()>前方</button>",
-                  "<button class=buttons002 onclick=q4i()>Bank</button>",
-                  "<button class=buttons002 onclick=q5i()>方向</button>"];
+        var a4 = ["<button class=buttons002 onclick=q1i()>聖誕節</button>",
+                  "<button class=buttons002 onclick=q2i()>Valentines Day</button>",
+                  "<button class=buttons002 onclick=q3i()>Celebrate</button>",
+                  "<button class=buttons002 onclick=q4i()>Mothers Day</button>",
+                  "<button class=buttons002 onclick=q5i()>Happy New Year’s Eve</button>"];
 
-     
       var c = ["正確!", "正確!", "正確!", "正確!", "正確!"];
       var i = ["錯誤", "錯誤", "錯誤", "錯誤", "錯誤"];
 
@@ -265,7 +264,7 @@
         option002.innerHTML = "";
         option003.innerHTML = "";
         option004.innerHTML = "";
-        next001.innerHTML = "<button class=buttons001 onclick=end001()>考試結束</button>";
+        next001.innerHTML = "<button class=buttons001 onclick=end001()考試結束</button>";
       }
 
       function end001() {
