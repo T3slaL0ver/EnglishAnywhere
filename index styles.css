@@ -12,6 +12,10 @@
     padding-bottom: 20px;
 }
 
+.logo {
+    display: inline-block;
+}
+
 .button {
     line-height: 0.6;
     display: flex;

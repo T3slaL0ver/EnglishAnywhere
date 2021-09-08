@@ -71,3 +71,10 @@
     font-weight: 500;
     transform: scale(1.5, 1.5);
 }
+
+.instructions {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    line-height: 0%;
+}
